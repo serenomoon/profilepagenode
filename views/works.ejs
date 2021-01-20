@@ -1,0 +1,122 @@
+<%-include("partials/header")-%>
+
+  <!-- Estilo -->
+  <link rel="stylesheet" href="css/worksstyles.css">
+
+  <title><%=wtitle%></title>
+</head>
+
+<body>
+  <!--TOP-->
+
+  <div class="container-fluid">
+    <%-include("partials/navbar")-%>
+
+
+
+    <div class="presentacion">
+      <div class="imgworkrad">
+        <img class="imgwork" src="img/worksback1.jpg" alt="image profile">
+      </div>
+      <h1 class="title"><%=wprimerH1%></h1>
+      <h3><%=wprimerH3%></h3>
+    </div>
+
+
+
+
+  </div>
+
+
+
+  <!--CENTER-->
+  <div class="center-container">
+    <img class="imgprofile" src="img/clouds.png" alt="image profile">
+    <h1><%=wsegH1%></h1>
+    <p><%=wprimerP1%><br><%=wprimerP2%></p>
+  </div>
+
+  <!-- <img class="separador" src="img/corner.png" alt="separador"> -->
+
+  <!-- Hobbies -->
+  <div class="row hobbies">
+
+    <div class="hobbies-rows col-lg-3 col-md-12 col-sm-12">
+      <img src="img/html.png" alt="movies">
+      <div class="imghobbies_textl">
+        <p><%=wHtml1%><br><%=wHtml2%></p>
+      </div>
+    </div>
+
+    <div class="hobbies-rows col-lg-4 col-md-12 col-sm-12">
+      <img src="img/python.png" alt="movies">
+      <div class="imghobbies_textr">
+        <p><%=wPython1%><br><%=wPython2%></p>
+      </div>
+    </div>
+
+    <div class="hobbies-rows col-lg-4 col-md-12 col-sm-12">
+      <img src="img/photoshop.png" alt="movies">
+      <div class="imghobbies_textl">
+        <p><%=wPhotoshop%></p>
+      </div>
+    </div>
+
+  </div>
+
+  <img class="imgcorte" src="img/clouds.png" alt="image profile">
+
+  <!-- RECALL -->
+  <div class="workscall container-fluid">
+    <div class="workstitle">
+      <h1><%=wtitle%></h1>
+      <p><%=wPWorks%></p>
+    </div>
+
+    <div class="row works">
+
+      <div class="works-rows col-lg-4 col-md-12 col-sm-12">
+        <img src="img/workhtml.jpg" alt="movies">
+        <div class="works_textr">
+          <p><%=pFlask%></p>
+        </div>
+      </div>
+
+      <div class="works-rows col-lg-4 col-md-12 col-sm-12">
+        <img src="img/workpython.jpg" alt="movies">
+        <div class="works_textr">
+          <p><%=pTkinter1%></p>
+          <a href="https://github.com/serenomoon/lolidapp"><%=pTkinter2%></a>
+        </div>
+      </div>
+
+      <div class="works-rows col-lg-4 col-md-12 col-sm-12">
+        <img src="img/workphotoshop.jpg" alt="movies">
+        <div class="works_textr">
+          <p><%=pBoardG1%></p>
+          <a href="https://www.instagram.com/threetombs/"><%=pBoardG2%></a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- OFCORSE -->
+  <div class="ofcorse container-fluid">
+    <div class="ofcorse-row row">
+      <div class="ofcorse-col col-lg-4 col-md-4 col-sm-12">
+        <p class="ofcorse-p1"><%=ofCorse1%></p>
+      </div>
+      <div class="ofcorse-col col-lg-4 col-md-4 col-sm-12">
+        <img class="ofcorse-img" src="img/ofcorse.png" alt="profile photo">
+      </div>
+      <div class="ofcorse-col col-lg-4 col-md-4 col-sm-12">
+        <p class="ofcorse-p2"><%=ofCorse2%></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOT -->
+  <%-include("partials/footer")-%>

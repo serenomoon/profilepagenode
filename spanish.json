@@ -1,0 +1,61 @@
+{
+  "menu": ["Sobre mí", "Trabajos", "Contacto"],
+  "about": {
+    "atitle": "Mi perfil",
+    "aprimh1": "Hola, soy Saulo!",
+    "aprimh3": "Soy Programador Web",
+    "aprimP": [
+      "Hola, si todavía no lo notaste, me gusta mucho saludar, y sí, me llamo Saulo. Soy un desarrollador web amateur con mucha imaginación y con ganas de crear nuevos mundos web.",
+      "Actualmente estoy estudiando tanto frontend como backend, tratando de combinar ambos aspectos para crear no sólo un buen funcionamiento a nivel operativo, sino también un recorrido placentero para los usuarios.",
+      "Pero dejemos de hablar de mí y conozcamos un poco más sobre ... mi."
+    ],
+    "ahobbies": [
+      "Me gusta mucho ver películas, ¿y a quién no?. Aunque soy más de películas clásicas, no importa lo malas que puedan llegar a ser. Y como pueden ver, Studio Ghibli me trae muchas alegrías.",
+      "La música y la escritura ocupan una gran parte de mi vida, me gusta buscar nueva música, descubrir nuevos artistas y estilos extraños. En cuanto a la escritura, suelo usarla como una forma de transmitir las cosas que pasan por mi cabeza, a veces se muestra a alguien, a veces no.",
+      "Libros de ciencia ficción. Ese tipo de libros son los que me gustan. Si digo que te transportan a mundos inexistentes sería un cliché, pero algunos lo hacen... Quiero decir, tu mente, no tu cuerpo físico.",
+      "Programación!, la magia que ocurre detrás de mi teléfono celular, el santo grial de la tecnología, el... sí, sí, sí, ya se entendió. Me gusta la programación."
+    ],
+    "aworks": "Mirá algo de mi trabajo, también podés enviarme un mensaje, o algo... como dinero.",
+    "acv": "Creo que ya hablamos demasiado de mí. Ahora hablemos de vos, seguramente sos una persona muy interesante... por cierto, podés ver mi currículum si querés... ahora mismo.",
+    "acvbutton": "Mirá mi CV"
+  },
+
+  "works": {
+    "wtitle": "Mis Trabajos",
+    "wprimh1": "Mis Trabajos!",
+    "wprimh3": "Experiencias con codigo",
+    "wsegh1": "Que se hacer?",
+    "wprimerp": [
+      "Empecé con la programación a principios de 2019, anteriormente ya me dedicaba al diseño gráfico.",
+      "Mi primer lenguaje de programación estudiado fue python, que entre los que he estudiado, es al que ",
+      "mas afecto le guardo, por su versatilidad y sencillez a la hora de realizar tareas complejas."
+    ],
+    "html": [
+      "HTML, CSS y JS es lo que más me divierte cuando trabajo, ya que combina el diseño y la programación, siendo capaz de llevar la imaginación más allá de los números.",
+      "Gracias Bootstrap."
+    ],
+    "python": [
+      "Puede que python no sea lo que más me divierte, pero es donde mejor me siento al trabajar, ya que me hace esforzarme al 100%. Aunque sólo he visto la punta del iceberg, siempre se encuentra una solución (aunque el código a veces no quede muy bonito).",
+      "He trabajado con bibliotecas como Tkinter, Django, Flask, Sqlite3, etc."
+    ],
+    "photoshop": "Creo que si querés aprender a diseñar páginas web, el diseño gráfico tiene que existir. Desde retocar imágenes prediseñadas hasta crear tus diseños únicos. Te da un sinfín de posibilidades.",
+    "wpworks": "Estos son algunos de mis trabajos más relevantes hasta la fecha.",
+    "pflask": "Sitio web con login usando Flask. Todavía en construcción y bajo estudio.",
+    "ptkinter": [
+      "Pequeño programa que utiliza la API de Riot (League of Legends). Fue hecho utilizando Python (Tkinter y Sqlitle3, entre otras bibliotecas). Básicamente, lee los datos de un determinado juego que introducimos, los almacena en una base de datos y da la opción de generar diferentes tipos de gráficos.",
+      "A Github!"
+    ],
+    "pboardg": [
+      "De todos los trabajos que he hecho en cuanto a diseño gráfico, el más ambicioso ha sido un juego de mesa (llamado Three Tombs), hecho por mí al 100%. Cartas, figuras, empaque, etc. Podés visitar mi instagram para saber más.",
+      "A Instragram!"
+    ],
+    "ofcorse" : [
+      "¿Realmente hiciste todo esto por vos mismo?",
+      "Por supuesto, no soy sólo un gato que se lame la entrepierna... ¿StackOverflow cuenta como ayuda?"
+    ]
+  },
+  "contactme" : {
+    "ctitle": "Contacto",
+    "cprimh1": "Contactame!"
+  }
+}

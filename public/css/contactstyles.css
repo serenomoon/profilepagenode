@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1.3vw;
+}
+
+/*TOP*/
+.container-fluid {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.presentacion {
+  margin: 4% 0 0 0;
+  width: 120%;
+}
+
+.imgworkrad {
+  overflow: hidden;
+  border-radius: 100%;
+  border: 4px double #ffd868;
+  margin: 0 0;
+}
+
+.imgwork {
+  width: 100%;
+}
+
+
+
+.presentacion h1 {
+  color: #f8615a;
+  font-family: 'Sacramento', cursive;
+  margin: 0 auto;
+  font-size: 6vw;
+  font-weight: bold;
+  width: 100%;
+}
+
+
+.menu {
+  position: absolute;
+  top: 0;
+  margin: 0 1rem 0 0;
+  right: 1em;
+}
+
+.menu-alinear {
+  width: 100%;
+}
+
+
+.nav-link {
+  font-size: 1.2vw;
+}
+
+.navbar-dark .navbar-toggler {
+  margin-bottom: 0.5em;
+  border-color: #f8615a;
+  color: rgba(248, 97, 90 ,.20);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: black;
+}
+
+.navbar-dark .navbar-toggler .fas {
+  color:#f8615a;
+}
+
+.menu a {
+  border-width: 0;
+  border-style: hidden;
+  margin: 0.2rem 0.2rem;
+  color: white;
+  background-color: #f8615a;
+  border: 2px solid #f8615a;
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+
+.menu a:hover {
+  border: 2px solid #f8615a;
+  background-color: white;
+}
+
+/* IMG SUELTAS */
+.imgsueltas {
+  width: 30%;
+}
+
+.imgsueltas-col {
+  margin: 10% 0 0 5%;
+}
+
+.imgsueltas-col a {
+  display: block;
+  margin-bottom: 30%;
+}
+
+.imgsueltas-col i {
+  font-size: 150%;
+}
+
+.btn-github {
+  margin-left: 15%;
+}
+
+.btn-instagram {
+  margin-left: 15%;
+}
+
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+
+  body {
+    font-size: 3vw;
+  }
+
+  /* Presenteacion */
+  .presentacion {
+    width: 100%;
+    margin-top: 2%;
+  }
+
+  .imgh1 {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+  }
+
+  .row {
+    width: 100%;
+    margin: 0;
+  }
+
+  .imgworkrad {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .presentacion h1 {
+    font-size: 14vw;
+    margin-top: -8%;
+  }
+
+  /* BOTONES */
+  .imgsueltas-col {
+    margin: 0;
+  }
+
+  .imgsueltas {
+    display: inline;
+  }
+
+   .imgsueltas i {
+     font-size: 5vw;
+   }
+
+   .imgsueltas-col a {
+     display: inline-block;
+     margin-bottom: 0;
+   }
+
+   .btn-github {
+     margin-left: 0;
+   }
+
+   .btn-instagram {
+     margin-left: 0;
+   }
+
+  /* MENU */
+  .nav-link {
+    font-size: 3vw;
+  }
+
+  .navbar-toggler .fas {
+    font-size: 6vw;
+  }

@@ -1,0 +1,61 @@
+{
+  "menu": ["About", "Works", "Contact"],
+  "about": {
+    "atitle": "My profile",
+    "aprimh1": "Hi, im Saulo!",
+    "aprimh3": "Im a Web Developer",
+    "aprimP": [
+      "Hello, if you haven't noticed yet, I really like to say hello and yes, my name is Saulo. I am an amateur web developer with a lot of imagination and wanting to create new web worlds.",
+      "I am currently studying both frontend and backend, trying to combine both to create not only smooth operation but also a relaxed journey for users.",
+      "But let's stop talking about me and let's know a little more about ... me"
+    ],
+    "ahobbies": [
+      "I really like watching movies, and who doesn't right? But I'm more of classic movies no matter how bad they sometimes are. And as you see, Studio Ghibli brings me many joys.",
+      "Music and writing occupy a large part of my life, I like to search for new music, discover new artists and strange styles. As for writing, I usually use it as a way to convey the things that go around my head, sometimes it is shown to someone, sometimes not.",
+      "Science fiction books. Those kinds of books are the ones I like. If I say that they transport you to non-existent worlds would be a cliche, but some do ... I mean, your mind, not your physical body.",
+      "Programming!, the magic that happens behind my cell phone, the holy grail of technology, the ... yeah, yeah, yeah, we all get it right now, so cut with that. I like programming."
+    ],
+    "aworks": "Look at some of my work, you can also send me a message or something...like money.",
+    "acv": "I think we've already talked too much about me. Now let's talk about you, surely you are a very interesting person ... by the way, you can look at my cv if you want ... right now.",
+    "acvbutton": "Look my CV"
+  },
+
+  "works": {
+    "wtitle": "My works",
+    "wprimh1": "My Works!",
+    "wprimh3": "Experiences with code",
+    "wsegh1": "What i know to do?",
+    "wprimerp": [
+      "I started with programming at the beginning of 2019, previously I was already dedicated to graphic design.",
+      "My first programming language studied was python, which among those that is studied, is the one that ",
+      "I keep the most affection, due to its versatility and simplicity when it comes to doing complex tasks."
+    ],
+    "html": [
+      "HTML, CSS and JS is what amuses me most when working, as it combines design and programming, being able to take the imagination beyond numbers.",
+      "Thanks Bootstrap."
+    ],
+    "python": [
+      "Python may not be what entertains me the most, but it’s where I feel best when I work, as it makes me try 100%. Although I have only seen the tip of the iceberg, there is always a solution (although the code is not very beautiful)",
+      "I have worked with libraries such as Tkinter, Django, Flask, Sqlite3, etc."
+    ],
+    "photoshop": "I think if you want to learn how to design web pages, graphic design has to exist. From retouching pre-designed images to creating your unique designs. It gives you endless possibilities.",
+    "wpworks": "Here are some of my most relevant works to date.",
+    "pflask": "Website with login using Flask. Still under construction and under study.",
+    "ptkinter": [
+      "Small program using the Riot API (League of Legends). It was made using Python (Tkinter and Sqlitle3, among other libraries). Basically, reads the data of a certain game that we enter, stores it in a database and gives the option to generate different types of graphics.",
+      "To Github!"
+    ],
+    "pboardg": [
+      "Among all the works I have done in terms of graphic design, the most ambitious has been a board game (called Three Tombs), made by me 100%. Cards, figures, packaging, etc. You can visit my instagram to find out more.",
+      "To Instragram!"
+    ],
+    "ofcorse" : [
+      "You really did all this by yourself?",
+      "Of course, I’m not just a cat who just licks his crotch... StackOverflow counts as help?"
+    ]
+  },
+  "contactme" : {
+    "ctitle": "Contact",
+    "cprimh1": "Contact me!"
+  }
+}

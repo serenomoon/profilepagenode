@@ -1,0 +1,117 @@
+<!-- header -->
+<%- include("partials/header"); -%>
+<!-- Estilo -->
+<link rel="stylesheet" href="/css/styles.css">
+
+  <title><%=atitle%></title>
+</head>
+
+<body>
+  <!--TOP-->
+
+  <div class="container-fluid">
+
+    <div class="fondo">
+    <div class="fadein">
+      <img id="f1" src="img/tarde.jpg">
+      <img id="f2" src="img/noche.jpg">
+      <img id="f3" src="img/tarde.jpg">
+      <img id="f4" src="img/dia.jpg">
+    </div>
+    </div>
+
+    <div class="presentacion">
+      <img class="imgprofile" src="img/favicon.png" alt="image profile">
+      <h1 class="title"><%=primerH1%></h1>
+      <h3><%=primerH3%></h3>
+    </div>
+
+
+    <!-- navbar -->
+<%- include("partials/navbar"); -%>
+
+  </div>
+
+
+
+  <!--CENTER-->
+  <div class="center-container">
+    <img class="imgprofile" src="img/elbaron.jpg" alt="image profile">
+    <h1><%=primerH1%></h1>
+    <p><%=primerP%><br><%=primerP2%></p>
+  </div>
+
+  <img class="separador" src="img/corner.png" alt="separador">
+
+  <!-- Hobbies -->
+  <div class="row hobbies">
+
+    <div class="hobbies-rows col-lg-3 col-md-6 col-sm-12">
+      <div class="imghobbiesw">
+        <img src="img/watching.gif" alt="movies">
+      </div>
+      <div class="imghobbies_textl">
+        <p><%=movies%></p>
+      </div>
+    </div>
+
+    <div class="hobbies-rows col-lg-3 col-md-6 col-sm-12">
+      <div class="imghobbiesmus">
+        <img src="img/music.gif" alt="movies">
+      </div>
+      <div class="imghobbies_textr">
+        <p><%=music%></p>
+      </div>
+    </div>
+
+    <div class="hobbies-rows col-lg-3 col-md-6 col-sm-12">
+      <div class="imghobbiesr">
+        <img src="img/read.gif" alt="movies">
+      </div>
+      <div class="imghobbies_textl">
+        <p><%=books%></p>
+      </div>
+    </div>
+
+    <div class="hobbies-rows col-lg-3 col-md-6 col-sm-12">
+      <div class="imghobbiesp">
+        <img src="img/programing.gif" alt="movies">
+      </div>
+      <div class="imghobbies_textr">
+        <p><%=programming%></p>
+      </div>
+    </div>
+
+  </div>
+
+  <img class="bichito-img" src="img/bichito2.png" alt="profile photo">
+
+  <!-- RECALL -->
+  <div class="recall container-fluid">
+    <div class="recall-row row">
+      <div class="recall-col col-lg-6 col-sm-12">
+        <p><%=works%></p>
+      </div>
+      <div class="recall-col col-lg-6 col-sm-12">
+        <a class="btn btn-outline-danger" href="/works"><%=worksmenu%></a>
+        <a class="btn btn-outline-danger" href="/contact"><%=contactmenu%></a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- CURRICULUM -->
+  <div class="cv container-fluid">
+    <div class="cv-row row">
+      <div class="cv-col col-6">
+        <p><%=cv%></p>
+      </div>
+      <div class="cv-col col-6">
+        <img class="cv-img" src="img/bichito1.png" alt="profile photo">
+        <a href="img/Saulo FI CV English.pdf" class="cv-bt btn btn-outline-danger"><%=cvlook%></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOT -->
+  <%- include("partials/footer"); -%>

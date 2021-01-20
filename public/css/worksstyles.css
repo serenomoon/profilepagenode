@@ -1,0 +1,389 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1.3vw;
+}
+
+/*TOP*/
+.container-fluid {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.presentacion {
+  margin: 2% auto 0 auto;
+  width: 70%;
+}
+
+.imgworkrad {
+  overflow: hidden;
+  border-radius: 100%;
+  border: 4px double #ffd868;
+  margin: 0 25%;
+}
+
+.imgwork {
+  width: 100%;
+}
+
+.presentacion h1 {
+  color: #f8615a;
+  font-family: 'Sacramento', cursive;
+  margin: -2rem auto 0 auto;
+  font-size: 6vw;
+  font-weight: bold;
+  width: 100%;
+}
+
+.presentacion h3 {
+  font-size: 2vw;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  margin: 0 1rem 0 0;
+  right: 1em;
+}
+
+.menu-alinear {
+  width: 100%;
+}
+
+.nav-link {
+  font-size: 1.2vw;
+}
+
+.navbar-dark .navbar-toggler {
+  margin-bottom: 0.5em;
+  border-color: #f8615a;
+  color: rgba(248, 97, 90, .20);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: black;
+}
+
+.navbar-dark .navbar-toggler .fas {
+  color: #f8615a;
+}
+
+
+.menu a {
+  border-width: 0;
+  border-style: hidden;
+  margin: 0.2rem 0.2rem;
+  color: white;
+  background-color: #f8615a;
+  border: 2px solid #f8615a;
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.menu a:hover {
+  border: 2px solid #f8615a;
+  background-color: white;
+}
+
+/*CENTER*/
+.center-container {
+  margin-top: 0;
+}
+
+.imgprofile {
+  opacity: 50%;
+  width: 45%;
+}
+
+.center-container img {
+  padding-top: 0;
+  border-radius: 100%;
+}
+
+.center-container h1 {
+  color: #ffd868;
+  margin: 3% 0;
+  font-size: 3.5vw;
+}
+
+.center-container p {
+  padding: 0 15% 0 15%;
+}
+
+/* HOBBIES */
+.hobbies {
+  margin: 5% 8%;
+}
+
+.hobbies img {
+  width: 25%;
+}
+
+.hobbies p {
+  margin: 1rem 1rem;
+}
+
+.hobbies-rows {
+  width: 33%;
+}
+
+.imgcorte {
+  width: 15%;
+  margin: 5% 0 5% 0;
+  opacity: 50%;
+}
+
+/*RECALL*/
+.workscall {
+  margin: 0 0 5% 0;
+  background-color: #f8615a;
+}
+
+.workstitle {
+  margin-bottom: 3rem;
+}
+
+.workscall h1 {
+  color: #dc3545;
+  margin: 3% 0;
+  font-size: 3.5vw;
+}
+
+.workscall p {
+  padding: 0 10%;
+  color: white;
+}
+
+.works img {
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+.works_textr a {
+  text-decoration: none;
+  color: #ffd868;
+}
+
+.works_textr a:hover {
+  text-decoration: none;
+  color: #FEE395;
+}
+
+.works-rows {
+  width: 33%;
+  margin-bottom: 5%;
+}
+
+@media (min-width: 1px) {
+  .col-lg-3 {
+    flex: 0 0 auto;
+    width: 33%;
+  }
+}
+
+/* OFCORSE */
+.ofcorse {
+  margin: 5% 0;
+}
+
+.ofcorse-p1 {
+  margin: 3% -25% 0 5%;
+  text-align: right;
+}
+
+.ofcorse-p2 {
+  margin: 25% 5% 0 -27%;
+  text-align: left;
+}
+
+.ofcorse-img {
+  width: 60%;
+  display: inline-block;
+}
+
+/* FOOT */
+.foot {
+  background-color: #f8615a;
+}
+
+.foot-row {
+  margin: 0 auto;
+}
+
+.footbtn {
+  display: inline;
+  padding: 0 1rem;
+}
+
+.foot-col-linkedin {
+  margin: 1% 0;
+}
+
+.foot-col-github {
+  margin: 1% 0;
+}
+
+
+.flags{
+  margin: 2% 0;
+  width: 2.5%;
+}
+
+.flags:hover{
+  opacity: 70%;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 100%;
+  border-color: #dc3545;
+}
+
+.foot-p {
+  color: white;
+  padding: 0 0;
+  font-size: 1vw;
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+
+  body {
+    font-size: 3vw;
+  }
+
+  /* Presenteacion */
+  .imgworkrad {
+    width: 100%;
+    margin: 0;
+  }
+
+  .presentacion h1 {
+    font-size: 14vw;
+  }
+
+  .presentacion h3 {
+    font-size: 5vw;
+  }
+
+
+  /* MENU */
+  .nav-link {
+    font-size: 3vw;
+  }
+
+  .navbar-toggler .fas {
+    font-size: 6vw;
+  }
+
+  /* Nube1 */
+  .imgprofile {
+    width: 50%;
+  }
+
+  /* CENTER */
+  .center-container{
+    margin: 10% 0 20%;
+  }
+
+  .center-container h1 {
+    font-size: 5vw;
+    margin-top: 10%;
+  }
+
+  /* HOBBIES */
+  .hobbies{
+    display: inline-block;
+  }
+
+  .hobbies-rows {
+    display: inline;
+  }
+
+  .hobbies img {
+    width: 30%;
+  }
+
+  .hobbies p {
+    margin-bottom: 10%;
+    text-align: left;
+  }
+
+  /* Nube2 */
+  .imgcorte {
+    width: 30%;
+  }
+
+  /* WORKS */
+  .workstitle h1 {
+    font-size: 5vw;
+  }
+
+  .workstitle {
+    margin: 0 0 -5% 0;
+  }
+
+  .works {
+    display: inline;
+  }
+
+  .works-rows {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .works img {
+    width: 50%;
+    margin-top: 10%;
+  }
+
+  .works p {
+    text-align: left;
+  }
+
+  /* OFCORSE */
+  .ofcorse-img {
+    width: 80%;
+  }
+
+  .ofcorse-p1 {
+    margin: 3% 0 0 5%;
+    text-align: left;
+  }
+
+  .ofcorse-p2 {
+    margin: 3% 1% 0 10%;
+    text-align: left;
+  }
+
+
+  /* FOOT */
+  .foot {
+    padding: 5% 0;
+  }
+
+  .foot .fab{
+    font-size: 5vw;
+  }
+
+  .foot-col-linkedin {
+    margin: 1% 0;
+    text-align: right;
+  }
+
+  .foot-col-github {
+    margin: 1% 0;
+    text-align: left;
+  }
+
+  .flags{
+    width: 6%;
+  }
+
+  .foot-p {
+    color: white;
+    padding: 0 0;
+    font-size: 2vw;
+  }
+
+}
