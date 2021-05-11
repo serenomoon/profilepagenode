@@ -40,7 +40,16 @@
     ],
     "photoshop": "Creo que si querés aprender a diseñar páginas web, el diseño gráfico tiene que existir. Desde retocar imágenes prediseñadas hasta crear tus diseños únicos. Te da un sinfín de posibilidades.",
     "wpworks": "Estos son algunos de mis trabajos más relevantes hasta la fecha.",
-    "pflask": "Sitio web con login usando Flask. Todavía en construcción y bajo estudio.",
+    "pflask": [
+      "Web Django para sitio de Yoga + PostgreSQL.",
+      "Login.",
+      "Home con notitas para recordatorios con fecha automatica.",
+      "Seccion Alumnos donde guardamos datos de cada uno con CRUD.",
+      "Seccion Profesores al igual que Alumnos.",
+      "Seccion Horarios (hora, dia, clase y profesor).",
+      "Seccion Asistencia, donde mediante la lista de alumnos podemos seleccionar los presentes y generar un formulario PDF. Ademas de registro con dia y horario en que es emitido.",
+      "A Github!"
+    ],
     "ptkinter": [
       "Pequeño programa que utiliza la API de Riot (League of Legends). Fue hecho utilizando Python (Tkinter y Sqlitle3, entre otras bibliotecas). Básicamente, lee los datos de un determinado juego que introducimos, los almacena en una base de datos y da la opción de generar diferentes tipos de gráficos.",
       "A Github!"
